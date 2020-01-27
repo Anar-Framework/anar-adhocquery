@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>af.gov.anar</groupId>
-	<artifactId>anar-hooks</artifactId>
+	<artifactId>anar-adhocquery</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>anar-hooks</name>
-	<description>Hooks Module of Anar Framework</description>
+	<name>anar-adhocquery</name>
+	<description>AdHoc Query Module of Anar Framework</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
