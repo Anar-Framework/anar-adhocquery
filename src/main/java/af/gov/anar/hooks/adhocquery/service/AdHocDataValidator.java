@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Set;
 
 import af.gov.anar.hooks.adhocquery.domain.ReportRunFrequency;
-import af.gov.anar.hooks.command.FromJsonHelper;
+import af.gov.anar.hooks.infrastructure.common.command.FromJsonHelper;
 import af.gov.anar.lang.data.ApiParameterError;
 import af.gov.anar.lang.infrastructure.exception.common.InvalidJsonException;
 import af.gov.anar.lang.infrastructure.exception.common.PlatformApiDataValidationException;

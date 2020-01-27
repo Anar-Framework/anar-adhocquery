@@ -6,14 +6,8 @@ import java.sql.SQLException;
 import java.util.Collection;
 
 import af.gov.anar.hooks.adhocquery.data.AdHocData;
-import af.gov.anar.hooks.adhocquery.domain.ReportRunFrequency;
 import af.gov.anar.hooks.adhocquery.exception.AdHocNotFoundException;
-import af.gov.anar.hooks.command.FromJsonHelper;
-import af.gov.anar.hooks.command.JdbcSupport;
-import af.gov.anar.lang.data.ApiParameterError;
-import af.gov.anar.lang.infrastructure.exception.common.InvalidJsonException;
-import af.gov.anar.lang.infrastructure.exception.common.PlatformApiDataValidationException;
-import af.gov.anar.lang.validation.DataValidatorBuilder;
+import af.gov.anar.hooks.infrastructure.common.command.JdbcSupport;
 import org.joda.time.DateTime;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;

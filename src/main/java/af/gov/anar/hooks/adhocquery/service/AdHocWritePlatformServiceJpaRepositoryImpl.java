@@ -6,7 +6,7 @@ import java.util.Map;
 import af.gov.anar.hooks.adhocquery.domain.AdHoc;
 import af.gov.anar.hooks.adhocquery.domain.AdHocRepository;
 import af.gov.anar.hooks.adhocquery.exception.AdHocNotFoundException;
-import af.gov.anar.hooks.command.JsonCommand;
+import af.gov.anar.hooks.infrastructure.common.command.JsonCommand;
 import af.gov.anar.lang.data.CommandProcessingResult;
 import af.gov.anar.lang.data.CommandProcessingResultBuilder;
 import af.gov.anar.lang.infrastructure.exception.common.PlatformDataIntegrityException;

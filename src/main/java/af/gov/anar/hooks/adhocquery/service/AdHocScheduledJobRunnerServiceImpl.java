@@ -6,13 +6,6 @@ import org.apache.fineract.infrastructure.jobs.service.JobName;
 
 import af.gov.anar.hooks.adhocquery.data.AdHocData;
 import af.gov.anar.hooks.adhocquery.domain.ReportRunFrequency;
-import af.gov.anar.hooks.adhocquery.exception.AdHocNotFoundException;
-import af.gov.anar.hooks.command.FromJsonHelper;
-import af.gov.anar.hooks.command.JdbcSupport;
-import af.gov.anar.lang.data.ApiParameterError;
-import af.gov.anar.lang.infrastructure.exception.common.InvalidJsonException;
-import af.gov.anar.lang.infrastructure.exception.common.PlatformApiDataValidationException;
-import af.gov.anar.lang.validation.DataValidatorBuilder;
 
 import org.joda.time.DateTime;
 import org.joda.time.Days;

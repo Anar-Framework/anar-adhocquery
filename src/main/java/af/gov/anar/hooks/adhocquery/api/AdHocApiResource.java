@@ -20,17 +20,11 @@ import javax.ws.rs.core.UriInfo;
 
 import af.gov.anar.hooks.adhocquery.data.AdHocData;
 import af.gov.anar.hooks.adhocquery.service.AdHocReadPlatformService;
+import af.gov.anar.hooks.infrastructure.common.api.ApiRequestParameterHelper;
+import af.gov.anar.hooks.infrastructure.common.serialization.ApiRequestJsonSerializationSettings;
+import af.gov.anar.hooks.infrastructure.common.serialization.DefaultToApiJsonSerializer;
 import af.gov.anar.lang.data.CommandProcessingResult;
 import org.apache.commons.lang.StringUtils;
-import org.apache.fineract.adhocquery.data.AdHocData;
-import org.apache.fineract.adhocquery.service.AdHocReadPlatformService;
-import org.apache.fineract.commands.domain.CommandWrapper;
-import org.apache.fineract.commands.service.CommandWrapperBuilder;
-import org.apache.fineract.commands.service.PortfolioCommandSourceWritePlatformService;
-import org.apache.fineract.infrastructure.core.api.ApiRequestParameterHelper;
-import org.apache.fineract.infrastructure.core.data.CommandProcessingResult;
-import org.apache.fineract.infrastructure.core.serialization.ApiRequestJsonSerializationSettings;
-import org.apache.fineract.infrastructure.core.serialization.DefaultToApiJsonSerializer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -41,7 +35,7 @@ import org.springframework.stereotype.Component;
 public class AdHocApiResource {
 
     /**
-     * The set of parameters that are supported in response for {@link AdhocData}
+     * The set of parameters that are supported in response for {@link AdHocData}
      */ 
     private final Set<String> RESPONSE_DATA_PARAMETERS = new HashSet<>(Arrays.asList("id", "name", "query", "tableName","tableField","isActive","createdBy","createdOn","createdById","updatedById","updatedOn","email"));
     

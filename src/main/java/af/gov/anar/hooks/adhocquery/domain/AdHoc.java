@@ -10,7 +10,7 @@ import javax.persistence.Table;
 
 import af.gov.anar.hooks.adhocquery.api.AdHocJsonInputParams;
 import af.gov.anar.hooks.adhocquery.utils.SQLInjectionValidator;
-import af.gov.anar.hooks.command.JsonCommand;
+import af.gov.anar.hooks.infrastructure.common.command.JsonCommand;
 import af.gov.anar.lang.data.AbstractPersistableCustom;
 import org.apache.commons.lang.BooleanUtils;
 import org.apache.commons.lang.StringUtils;
